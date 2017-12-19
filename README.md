@@ -4,7 +4,7 @@ Dist-A3C
 
 **TODO: Have server use mp - one thread for server, one for testing. Keep counter to know once finished. Also be able to send push notifications to kill running clients once counter done.**
 
-Distributed asynchronous advantage actor-critic (A3C) [[1]](#references) with generalised advantage estimation (GAE) [[2]](#references). Run with `python main.py <options>`.
+Distributed asynchronous advantage actor-critic (A3C) [[1]](#references) with generalised advantage estimation (GAE) [[2]](#references). Run `python server.py <options>` to start the server and `python client.py <options>` for as many clients as wanted.
 
 Requirements
 ------------
