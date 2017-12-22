@@ -1,0 +1,11 @@
+name: dista3c
+channels:
+  - pytorch
+dependencies:
+  - msgpack-python
+  - plotly
+  - pytorch
+  - pyzmq
+  - pip:
+    - gym[atari]
+    - msgpack-numpy

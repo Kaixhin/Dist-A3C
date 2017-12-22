@@ -9,13 +9,14 @@ Distributed asynchronous advantage actor-critic (A3C) [[1]](#references) with ge
 Requirements
 ------------
 
-- [Python](https://www.python.org/)
-- [PyTorch](http://pytorch.org/)
 - [OpenAI Gym](https://gym.openai.com/)
-- [Plotly](https://plot.ly/python/)
-- [PyZMQ](https://github.com/zeromq/pyzmq)
 - [MessagePack](http://msgpack.org/)
 - [msgpack-numpy](https://github.com/lebedov/msgpack-numpy)
+- [Plotly](https://plot.ly/python/)
+- [PyTorch](http://pytorch.org/)
+- [PyZMQ](https://github.com/zeromq/pyzmq)
+
+To install all dependencies with Anaconda run `conda env create -f environment.yml` and use `source activate dista3c` to activate the environment.
 
 Acknowledgements
 ----------------
